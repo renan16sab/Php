@@ -29,7 +29,7 @@ class Passaro extends Animal {
     }
 
     public function mover(){
-        return "Voa" . parent::mover();
+        return "Voa e " .  parent::mover();
     }
 }
 
